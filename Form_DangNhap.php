@@ -34,5 +34,6 @@ if(isset($_GET['act']) && $_GET['act'] == "logout")
 {
 	DangNhap::DangXuat();
 }
+//Dang Nhap
 
 

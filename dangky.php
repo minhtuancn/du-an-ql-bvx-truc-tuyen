@@ -18,7 +18,7 @@
 		$birthday = addslashes($_POST['ngaysinh']);
 		$phone = addslashes($_POST['dienthoai']);				
 			
-		//Báo lỗi nhập thiếu thông tin bắt buộc
+		//Báo lỗi nhập thiếu thông tin.
 		
 		if( !$user || !$pass || !$vpass || !$email)
 		{
