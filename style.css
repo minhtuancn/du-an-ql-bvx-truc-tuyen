@@ -1,0 +1,676 @@
+*
+{
+	margin-top:0;
+	padding:0;
+}
+.clear
+{
+	clear:both;
+}
+
+body
+{
+	background:url(../images/background.jpg) repeat-x #ccc;
+}
+h1
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+h3
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	color:#999;
+	margin-bottom:0;
+}
+
+#tieude
+{
+	text-align:left;
+	width:1080px;
+	height:50px;
+	background:url(../images/bg_tieude.png);
+}
+#tieude .diemtin {
+	list-style-type: none;
+	border: 1px dashed #fff;
+	width:400px;
+	height:40px;
+	background: #050c44;
+	padding: 3px;
+	margin: 0;
+}
+
+#tieude ul
+{
+	padding:7px 0 0 35px;
+	height:40px;
+	width:600px;
+	text-align:left;
+	list-style-type:none;
+}
+#tieude li a
+{
+	color:#FBFBFB;
+	text-decoration:none;
+	font-weight:bold;
+}
+#tieude li a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#tieude  p
+{
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:-2px;
+	float:left;
+}
+#tieude ul li
+{
+	color:#FBFBFB;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	font-weight:bold;
+	margin-right:5px;
+	margin-left:5px;
+}
+
+#container
+{
+	text-align:left;
+	width:1020px;
+	height:auto;
+	border:0;
+	margin-top:-20px;
+	margin-bottom:1px;
+	background:#FFF;
+	box-shadow:0 0 50px #000000;
+}
+
+#banner
+{
+	width:1020px;
+	height:345px;
+	margin:0;
+	border:0;
+	margin-top:0;
+}
+
+#banner p
+{
+	width:250px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#7f86b0;
+	padding-top:325px;
+}
+
+#menu
+{
+	margin-top:0;
+	margin-left:1.25px;
+	width:1020px;
+	height:40px;
+	border:#FFF;
+}
+#menu #clockbox
+{
+	color:#7f86b0;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	font-weight:bold;
+	width:250px;
+	height:40px;
+	float:left;
+	background:url(../images/bg_clock.jpg) no-repeat;
+	margin:0 1.25px 0 1.25px;
+	padding-top:9px;
+}
+#menu ul
+{
+	width:766px;
+	height:40px;
+	list-style-type:none;
+	float:left;
+
+}
+#menu ul li
+{
+	width:125px;
+	height:40px;
+	float:left;
+	margin:0 1.25px 0 1.25px;
+	background:url(../images/bg_menu.png) no-repeat;
+	text-align:center;
+	padding-top:3px;
+	position:relative;
+}
+#menu ul li a
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+}
+#menu ul li a:hover
+{
+	color:#00F;
+}
+#menu li ul
+{
+	position:absolute;
+	display:none;
+	width:125px;
+	margin:12px 0 0 50px;
+}
+#menu li:hover ul
+{
+	display:block;
+}
+#menu ul li ul li 
+{
+	background:url(../images/bg_menu.png) no-repeat;
+	height:40px;
+	text-align:left;
+	padding:5px 0 0 10px;
+	margin-bottom:-6px;
+}
+#menu ul li ul li a
+{
+	font-size:14px;
+	color:#333;
+	font:Verdana, Geneva, sans-serif;
+}
+#menu ul li ul li a:hover
+{
+	color:#00F;
+}
+
+#menu .trangchu
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_trangchu.jpg) no-repeat;
+}
+#menu .trangchu:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_trangchu_hover.jpg) no-repeat;
+}
+
+#menu .giave
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_giave.jpg) no-repeat;
+}
+#menu .giave:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_giave_hover.jpg) no-repeat;
+}
+
+#menu .tuyendi
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_tuyendi.jpg) no-repeat;
+}
+#menu .tuyendi:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_tuyendi_hover.jpg) no-repeat;
+}
+
+#menu .chuyendi
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_chuyendi.jpg) no-repeat;
+}
+#menu .chuyendi:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_chuyendi_hover.jpg) no-repeat;
+}
+
+#menu .datve
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_datve.jpg) no-repeat;
+}
+#menu .datve:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_datve_hover.jpg) no-repeat;
+}
+
+#menu .lienhe
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_lienhe.jpg) no-repeat;
+}
+#menu .lienhe:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_lienhe_hover.jpg) no-repeat;
+}
+
+#menu .tuyendung
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_tuyendung.jpg) no-repeat;
+}
+#menu .tuyendung:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_tuyendung_hover.jpg) no-repeat;
+}
+
+#menu .gioithieu
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_gioithieu.jpg) no-repeat;
+}
+#menu .gioithieu:hover
+{
+	width:125px;
+	height:40px;
+	background:url(../images/bg_gioithieu_hover.jpg) no-repeat;
+}
+
+#left
+{
+	width:214px;
+	height:auto;
+	margin:-9px 1px 0 3px;
+	text-align:left;
+	float:left;
+}
+#left .danhmuc
+{
+	margin-top:0;
+	margin-bottom:10px;
+	color:#000;
+	width:208px;
+	height:auto;
+	background:url(../images/bg_title.png) no-repeat;
+	border:#CCC solid 1px;
+	border-top-color:#FFF;
+}
+#left .danhmuc .thongke_website
+{
+	text-align:center;
+	margin-top:-10px;
+	width:208px;
+	color:#666;
+	font:Tahoma, Geneva, sans-serif;
+}
+#left .danhmuc p
+{
+	margin-top:6px;
+	color:#7f86b0;
+	font-size:16px;
+	text-align:center;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#left .danhmuc ul
+{
+	width:208px;
+	margin-top:-5px;
+	margin-left:15px;
+	list-style-type:none;
+}
+#left .danhmuc ul li
+{
+	width:193px;
+	color:#333;
+	border-bottom:#666 dotted 1px;
+}
+#left .danhmuc ul li a
+{
+	color:#666;
+	text-decoration:none;
+}
+#left .danhmuc ul li a:hover
+{
+	color:#00F;
+}
+#left .danhmuc .textbox
+{
+	text-align:center;
+	margin:0 5px 10px; 5px;
+}
+
+#center
+{
+	width:580px;
+	height:auto;
+	margin:-10px 1px 10px 1px;
+	border:#CCC solid 1px;
+	float:left;
+	box-shadow:0 5px 20px #666666;
+}
+#center p
+{
+	margin:10px 20px 30px 10px;
+}
+
+#right
+{
+	width:214px;
+	height:auto;
+	margin:-10px 1px 0 1px;
+	text-align:right;
+	float:right;
+}
+.form_dangnhap 
+{
+	margin-top:0;
+}
+
+#right .danhmuc
+{
+	margin-top:0;
+	margin-bottom:10px;
+	color:#000;
+	width:208px;
+	height:auto;
+	background:url(../images/bg_title.png) no-repeat;
+	border:#CCC solid 1px;
+	border-top-color:#FFF;
+}
+#right .danhmuc p
+{
+	margin-top:6px;
+	color:#7f86b0;
+	font-size:16px;
+	text-align:center;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#right .danhmuc ul
+{
+	width:208px;
+	height:auto;
+	margin-left:10px;
+	margin-top:-10px;
+	list-style-type:none;
+	text-align:left;
+}
+#right .danhmuc ul li
+{
+	margin-bottom:-15px;
+}
+#right .danhmuc ul li a
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:13px;
+	color:#333;
+}
+
+
+
+#right .danhmuc ul h5
+{
+	color:#333;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	padding-top:10px;
+}
+#right .danhmuc .tintuc
+{
+	width:200px;
+	height:200px;
+	
+	padding-top:30px;
+}
+#right .danhmuc .tintuc ul
+{
+	width:200px;
+	height:200px;
+	list-style-type:none;
+}
+#right .danhmuc .tintuc ul li
+{
+	width:193px;
+	color:#7f86b0;
+	margin:3px;
+}
+#right .danhmuc .tintuc ul li a
+{
+	color:#06F;
+	text-decoration:none;
+}
+#right .danhmuc .tintuc ul li a:hover
+{
+	color:#333;
+}
+#right .danhmuc .tintuc img
+{
+	border:0;
+	margin-bottom:1.5px;
+}
+
+#right .danhmuc .form_dangnhap
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	width:200px;
+	height:auto;
+	text-align:left;
+	margin-left:5px;
+}
+#right .danhmuc .form_dangnhap h2
+{
+	font-size:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center;
+	margin-top:5px;
+}
+#right .danhmuc .form_dangnhap h2 a
+{
+	text-decoration:none;
+	color:#666;
+}
+#right .danhmuc .form_dangnhap h2 a:hover
+{
+	color:#F60;
+}
+#right .danhmuc .form_dangnhap .button_dangnhap
+{
+	width:100px; 
+	height:25px; 
+	margin-left:45px; 
+	font-weight:bold; 
+	color:#FFF; 
+	background:#7f86b0;
+}
+#right .danhmuc .form_dangnhap .button_dangnhap:hover
+{
+	width:100px; 
+	height:25px; 
+	margin-left:45px; 
+	font-weight:bold; 
+	color:#F93; 
+	background:#CCC;
+}
+
+#footer
+{
+	width:988px;
+	margin:1px;
+	height:auto;
+	background:#7f86b0;
+	color:#CCC;
+	font-family:Verdana, Geneva, sans-serif;
+	padding:3px 0 10px 30px;
+	font-size:14px;
+}
+#footer h3
+{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:2px;
+	padding-top:20px;
+}
+#footer img
+{
+	float:left;
+	padding-right:10px;
+	margin-left:-20px;
+}
+#footer .duongthang
+{
+	margin-left:-30px;
+}
+h4
+{
+	font-family:"Times New Roman", Times, serif;
+	size:12px;
+	text-align:center;
+	height:15px;
+	margin-bottom:3px;
+}
+
+#form_dangky
+{
+	width:550px;
+	margin:-10px 0 20px 20px;
+}
+
+#menu1
+{
+	margin-left:-1px;
+	width:130px;
+	height:auto;
+	border:#7f86b0 solid 2px;
+	float:left;
+	background:#FFF;
+}
+#menu1 #clockbox
+{
+	color:#7f86b0;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	font-weight:bold;
+	width:250px;
+	height:40px;
+	float:left;
+	background:url(../images/bg_clock.jpg) no-repeat;
+	margin:5px 1.25px 0 1.25px;
+	padding-top:9px;
+}
+#menu1 ul
+{
+	width:125px;
+	height:auto;
+	list-style-type:none;
+	float:left;
+	margin:2px 0 0 2px;
+
+}
+#menu1 ul li
+{
+	width:125px;
+	height:35px;
+	float:left;
+	margin:0 1.25px 0 1.25px;
+	background:url(../images/bg_menu.png) no-repeat;
+	text-align:left;
+	padding:8px 0 0 5px;
+	position:relative;
+}
+#menu1 ul li a
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+}
+#menu1 ul li a:hover
+{
+	color:#00F;
+}
+#menu1 li ul
+{
+	position:absolute;
+	display:none;
+	width:125px;
+	margin:-32px 0 0 125px;
+}
+#menu1 li:hover ul
+{
+	display:block;
+}
+#menu1 ul li ul li 
+{
+	background:url(../images/bg_menu.png) no-repeat;
+	height:35px;
+	text-align:left;
+	padding:10px 0 0 5px;
+}
+#menu1 ul li ul li a
+{
+	font-size:14px;
+	color:#333;
+	font:Verdana, Geneva, sans-serif;
+}
+#menu1 ul li ul li a:hover
+{
+	color:#00F;
+}
+
+#form_quenmatkhau
+{
+	width:550px;
+	margin:10px 0 40px 20px;
+	text-align:left;
+}
+
+.button_xacnhan
+{
+	width:100px; 
+	height:25px; 
+	font-weight:bold; 
+	color:#FFF; 
+	background:#7f86b0;
+	margin-left:180px;
+	margin-top:5px;
+}
+.gioithieu1{
+	width:570px;font:Bold 12pt Tahoma; height:25px;
+	background-image:url(../images/Linetitle.jpg);background-repeat:no-repeat;color:#3333FF;
+}
+.gioithieu2 p{
+	width: 570px;vertical-align:text-top;text-indent:1em; font-family:Arial;font-size:small;color:black;
+	margin-left:5px;padding:0;;
+}
