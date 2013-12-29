@@ -185,7 +185,7 @@ static function ViewTuyenDung(){
 	</form>';
 	}
 
-//Them Tuyen dung
+
 	static function ViewThemTD(){			
 		echo '
 	<table align="center">
