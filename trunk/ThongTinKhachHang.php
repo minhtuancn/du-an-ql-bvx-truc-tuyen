@@ -9,7 +9,7 @@ class ThongTinKhachHang{
 	var $DiaChi;
 	var $DienThoai;
 	var $TenDangNhap;
-	//Chuyen du lieu sang kieu doi tuong
+	//Chuyen du lieu sang kieu Đối tượng.
 	function ConversToobject($array){
 		$dv = new ThongTinKhachHang();
 		$dv->ID = $array["ID"];

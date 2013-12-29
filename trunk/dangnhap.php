@@ -28,6 +28,7 @@ class DangNhap{
 			}
 			return $arr;
 	}
+	// thay doi mat khau.
 	
 	static function ThayDoiMatKhau($id,$mk){
 			$str = "update dangnhap set MatKhau=$mk WHere Ten = '".$id."'";
