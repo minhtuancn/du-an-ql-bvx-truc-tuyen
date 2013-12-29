@@ -47,12 +47,13 @@ class TuyenDi{
 			}
 			return $arr;
 		}
-		
+		//them tuyen di
 		static function ThemTuyenDi($id,$diemdi,$diemden,$soluong){
 			$str = "INSERT INTO tuyendi (Ten, DiemDi, DiemDen, SoLuongXe) VALUES ('".$id."','".$diemdi."','".$diemden."','".$soluong."')";
 			$kq = Query($str);
 			return $kq;
 		}
+		//Xoa
 		static function Xoa($id){
 			$str = "DELETE from tuyendi WHere Ten = '".$id."'";
 			$kq = Query($str);

@@ -51,12 +51,14 @@
 				return null;
 			}
 		}
+		//xoa lien he
 		static function XoaLienHe($id)
 		{
 			$str="delete from lienhe where idLh=$id";
 			$kq= Query($str);
 			return $kq;
 		}
+		//them lien he
 		static function ThemLienHe($ht, $em, $dt, $nd)
 		{	
 			$ngay=date("Y/m/d");

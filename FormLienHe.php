@@ -7,12 +7,12 @@
 			$kq = lienhe::ThemLienHe($_POST["HoTen"],$_POST["Email"],$_POST["DienThoai"],$_POST["NoiDung"]);
 			if($kq>0)
 			{
-				echo "<script>alert('Cảm ơn bạn đã góp ý.')</script>";
+				echo "<script>alert('Cảm ơn bạn đã góp ý!')</script>";
 				echo'<script>window.location.assign("index.php");</script>';
 			}
 			else
 			{
-				echo "<script>alert('Xảy ra lỗi, vui lòng kiểm tra thông tin nhập vào')</script>";
+				echo "<script>alert('Xảy ra lỗi, vui lòng kiểm tra thông tin nhập vào!')</script>";
 			}
 		}
 		else
