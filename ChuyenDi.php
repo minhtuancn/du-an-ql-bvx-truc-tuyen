@@ -1,7 +1,7 @@
 <?php
 class ChuyenDi{
 	
-		//cac thuoc tinh
+		//cac thuộc tính
 		var $MaChuyen;
 		var $TenTuyen;
 		var $GioDi;
